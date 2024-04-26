@@ -1766,8 +1766,8 @@ strong{
 		}
 
 			.image.avatar48 img {
-				width: 48px;
-				height: 48px;
+				width: 50px;
+				height: 50px;
 			}
 
 		.image.fit {
@@ -1983,6 +1983,11 @@ strong{
 		}
 
 /* Item */
+
+	.portfolio-item:hover{
+		box-shadow: 20px 20px 50px grey;
+		transition: all 0.5s ease-out;
+	}
 
 	.item {
 		box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
@@ -2258,6 +2263,7 @@ strong{
 
 			#main > section.two {
 				background-color: #f5fafa;
+				transition: ease-in-out;
 			}
 
 			#main > section.three {
